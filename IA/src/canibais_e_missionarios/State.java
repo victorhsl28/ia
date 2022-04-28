@@ -11,9 +11,7 @@ public class State {
 	private Boat boat;
 	private State father;
 	private Movement step;
-	
-	public static List<Movement> movements = new LinkedList<>();
-	
+		
 	public State(int left_missionaries, int right_missionaries, int left_cannibals, int right_cannibals, Boat boat) {
 		this.left_missionaries = left_missionaries;
 		this.right_missionaries = right_missionaries;
@@ -33,8 +31,8 @@ public class State {
 		(right_missionaries <= 3 && right_missionaries >= 0) &&
 		(left_cannibals <= 3 && left_cannibals >= 0) &&
 		(right_cannibals <= 3 && right_cannibals >= 0) &&
-		(((left_missionaries == 0) || (left_missionaries >= left_cannibals)) &&
-		((right_missionaries == 0) || (right_missionaries >= left_cannibals))))		return true;
+		(left_missionaries == 0 || left_missionaries >= left_cannibals) &&
+		(right_missionaries == 0 || right_missionaries >= right_cannibals))		return true;
 		
 		
 		return false;
@@ -44,17 +42,18 @@ public class State {
 		
 		List<State> childs = new LinkedList<>();
 		
-		if(boat == Boat.LEFT) {
-			boat = Boat.RIGHT;
-		} else {
-			boat = Boat.LEFT;
-		}
-		
-		for(Movement movement : movements) {
+		for(Movement movement : Movement.movements) {
 			
 			int l_m = 0, r_m = 0, l_c = 0, r_c = 0;
+			Boat tempBoat;
 			
-			if(boat == Boat.RIGHT) {
+			if(boat == Boat.LEFT) {
+				tempBoat = Boat.RIGHT;
+			} else {
+				tempBoat = Boat.LEFT;
+			}
+			
+			if(tempBoat == Boat.RIGHT) {
 				
 				l_m = left_missionaries - movement.getMissionary();
 				r_m = right_missionaries + movement.getMissionary();
@@ -71,7 +70,7 @@ public class State {
 				r_c = right_cannibals - movement.getCannibal();
 			}
 			
-			State childState = new State(l_m, r_m, l_c, r_c, boat);
+			State childState = new State(l_m, r_m, l_c, r_c, tempBoat);
 			childState.setFather(this);
 			childState.setStep(movement);
 			if(childState.onBound())	childs.add(childState);
@@ -81,7 +80,7 @@ public class State {
 	}
 	
 	public void print() {
-		System.out.println("Missionarios a esqueda: " + left_missionaries);
+		System.out.println("\nMissionarios a esqueda: " + left_missionaries);
 		System.out.println("Missionarios a direita: " + right_missionaries);
 		System.out.println("Canibais a esqueda: " + left_cannibals);
 		System.out.println("Canibais a direita: " + right_cannibals);
@@ -89,15 +88,7 @@ public class State {
 		System.out.println("Passo: [" + step.getMissionary() + ", " + step.getCannibal() + "]");
 		
 	}
-	
-	public static void setupMovements() {
-		movements.add(new Movement(1, 0));
-		movements.add(new Movement(1, 1));
-		movements.add(new Movement(2, 0));
-		movements.add(new Movement(0, 1));
-		movements.add(new Movement(0, 2));
-	}
-	
+		
 	public int getleft_missionaries() {
 		return left_missionaries;
 	}
