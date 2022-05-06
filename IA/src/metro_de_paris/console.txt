@@ -1,0 +1,1396 @@
+1 -> 1
+
+
+1 -> 2
+Partindo da estacao: 1
+Chegado na estacao de destino: 2
+Tempo total: 0h:22min!
+
+1 -> 3
+Partindo da estacao: 1
+Passado pela estacao: 2
+Chegado na estacao de destino: 3
+Tempo total: 0h:58min!
+
+1 -> 4
+Partindo da estacao: 1
+Passado pela estacao: 2
+Passado pela estacao: 3
+Chegado na estacao de destino: 4
+Tempo total: 1h:40min!
+
+1 -> 5
+Partindo da estacao: 1
+Passado pela estacao: 2
+Passado pela estacao: 3
+Passado pela estacao: 4
+Chegado na estacao de destino: 5
+Tempo total: 3h:24min!
+
+1 -> 6
+Partindo da estacao: 1
+Passado pela estacao: 2
+Passado pela estacao: 3
+Passado pela estacao: 4
+Passado pela estacao: 5
+Chegado na estacao de destino: 6
+Tempo total: 3h:52min!
+
+1 -> 7
+Partindo da estacao: 1
+Passado pela estacao: 2
+Passado pela estacao: 3
+Passado pela estacao: 4
+Passado pela estacao: 5
+Mudado para a linha: Y
+Chegado na estacao de destino: 7
+Tempo total: 3h:24min!
+
+1 -> 8
+Partindo da estacao: 1
+Passado pela estacao: 2
+Mudado para a linha: Y
+Passado pela estacao: 9
+Chegado na estacao de destino: 8
+Tempo total: 1h:56min!
+
+1 -> 9
+Partindo da estacao: 1
+Passado pela estacao: 2
+Mudado para a linha: Y
+Chegado na estacao de destino: 9
+Tempo total: 1h:02min!
+
+1 -> 10
+Partindo da estacao: 1
+Passado pela estacao: 2
+Mudado para a linha: Y
+Chegado na estacao de destino: 10
+Tempo total: 0h:32min!
+
+1 -> 11
+Partindo da estacao: 1
+Passado pela estacao: 2
+Mudado para a linha: Y
+Passado pela estacao: 9
+Mudado para a linha: R
+Chegado na estacao de destino: 11
+Tempo total: 1h:42min!
+
+1 -> 12
+Partindo da estacao: 1
+Passado pela estacao: 2
+Mudado para a linha: Y
+Passado pela estacao: 9
+Passado pela estacao: 8
+Mudado para a linha: G
+Chegado na estacao de destino: 12
+Tempo total: 2h:32min!
+
+1 -> 13
+Partindo da estacao: 1
+Passado pela estacao: 2
+Passado pela estacao: 3
+Mudado para a linha: R
+Chegado na estacao de destino: 13
+Tempo total: 2h:12min!
+
+1 -> 14
+Partindo da estacao: 1
+Passado pela estacao: 2
+Passado pela estacao: 3
+Mudado para a linha: R
+Passado pela estacao: 13
+Mudado para a linha: G
+Chegado na estacao de destino: 14
+Tempo total: 2h:46min!
+
+2 -> 1
+Partindo da estacao: 2
+Chegado na estacao de destino: 1
+Tempo total: 0h:22min!
+
+2 -> 2
+
+
+2 -> 3
+Partindo da estacao: 2
+Chegado na estacao de destino: 3
+Tempo total: 0h:18min!
+
+2 -> 4
+Partindo da estacao: 2
+Passado pela estacao: 3
+Chegado na estacao de destino: 4
+Tempo total: 0h:46min!
+
+2 -> 5
+Partindo da estacao: 2
+Passado pela estacao: 3
+Passado pela estacao: 4
+Chegado na estacao de destino: 5
+Tempo total: 2h:04min!
+
+2 -> 6
+Partindo da estacao: 2
+Passado pela estacao: 3
+Passado pela estacao: 4
+Passado pela estacao: 5
+Chegado na estacao de destino: 6
+Tempo total: 2h:26min!
+
+2 -> 7
+Partindo da estacao: 2
+Passado pela estacao: 3
+Passado pela estacao: 4
+Passado pela estacao: 5
+Mudado para a linha: Y
+Chegado na estacao de destino: 7
+Tempo total: 2h:06min!
+
+2 -> 8
+Partindo da estacao: 2
+Passado pela estacao: 9
+Chegado na estacao de destino: 8
+Tempo total: 0h:56min!
+
+2 -> 9
+Partindo da estacao: 2
+Chegado na estacao de destino: 9
+Tempo total: 0h:22min!
+
+2 -> 10
+Partindo da estacao: 2
+Chegado na estacao de destino: 10
+Tempo total: 0h:08min!
+
+2 -> 11
+Partindo da estacao: 2
+Passado pela estacao: 9
+Mudado para a linha: R
+Chegado na estacao de destino: 11
+Tempo total: 1h:02min!
+
+2 -> 12
+Partindo da estacao: 2
+Passado pela estacao: 9
+Passado pela estacao: 8
+Mudado para a linha: G
+Chegado na estacao de destino: 12
+Tempo total: 1h:28min!
+
+2 -> 13
+Partindo da estacao: 2
+Passado pela estacao: 3
+Mudado para a linha: R
+Chegado na estacao de destino: 13
+Tempo total: 1h:12min!
+
+2 -> 14
+Partindo da estacao: 2
+Passado pela estacao: 3
+Mudado para a linha: R
+Passado pela estacao: 13
+Mudado para a linha: G
+Chegado na estacao de destino: 14
+Tempo total: 1h:42min!
+
+3 -> 1
+Partindo da estacao: 3
+Passado pela estacao: 2
+Chegado na estacao de destino: 1
+Tempo total: 1h:02min!
+
+3 -> 2
+Partindo da estacao: 3
+Chegado na estacao de destino: 2
+Tempo total: 0h:18min!
+
+3 -> 3
+
+
+3 -> 4
+Partindo da estacao: 3
+Chegado na estacao de destino: 4
+Tempo total: 0h:14min!
+
+3 -> 5
+Partindo da estacao: 3
+Passado pela estacao: 4
+Chegado na estacao de destino: 5
+Tempo total: 1h:06min!
+
+3 -> 6
+Partindo da estacao: 3
+Passado pela estacao: 4
+Passado pela estacao: 5
+Chegado na estacao de destino: 6
+Tempo total: 1h:22min!
+
+3 -> 7
+Partindo da estacao: 3
+Passado pela estacao: 4
+Passado pela estacao: 5
+Mudado para a linha: Y
+Chegado na estacao de destino: 7
+Tempo total: 1h:10min!
+
+3 -> 8
+Partindo da estacao: 3
+Passado pela estacao: 9
+Mudado para a linha: Y
+Chegado na estacao de destino: 8
+Tempo total: 0h:52min!
+
+3 -> 9
+Partindo da estacao: 3
+Chegado na estacao de destino: 9
+Tempo total: 0h:20min!
+
+3 -> 10
+Partindo da estacao: 3
+Passado pela estacao: 2
+Mudado para a linha: Y
+Chegado na estacao de destino: 10
+Tempo total: 0h:34min!
+
+3 -> 11
+Partindo da estacao: 3
+Passado pela estacao: 9
+Chegado na estacao de destino: 11
+Tempo total: 1h:06min!
+
+3 -> 12
+Partindo da estacao: 3
+Passado pela estacao: 9
+Mudado para a linha: Y
+Passado pela estacao: 8
+Mudado para a linha: G
+Chegado na estacao de destino: 12
+Tempo total: 1h:28min!
+
+3 -> 13
+Partindo da estacao: 3
+Chegado na estacao de destino: 13
+Tempo total: 0h:26min!
+
+3 -> 14
+Partindo da estacao: 3
+Passado pela estacao: 13
+Mudado para a linha: G
+Chegado na estacao de destino: 14
+Tempo total: 0h:50min!
+
+4 -> 1
+Partindo da estacao: 4
+Passado pela estacao: 3
+Passado pela estacao: 2
+Chegado na estacao de destino: 1
+Tempo total: 1h:56min!
+
+4 -> 2
+Partindo da estacao: 4
+Passado pela estacao: 3
+Chegado na estacao de destino: 2
+Tempo total: 0h:50min!
+
+4 -> 3
+Partindo da estacao: 4
+Chegado na estacao de destino: 3
+Tempo total: 0h:14min!
+
+4 -> 4
+
+
+4 -> 5
+Partindo da estacao: 4
+Chegado na estacao de destino: 5
+Tempo total: 0h:26min!
+
+4 -> 6
+Partindo da estacao: 4
+Passado pela estacao: 5
+Chegado na estacao de destino: 6
+Tempo total: 0h:38min!
+
+4 -> 7
+Partindo da estacao: 4
+Passado pela estacao: 5
+Mudado para a linha: Y
+Chegado na estacao de destino: 7
+Tempo total: 0h:32min!
+
+4 -> 8
+Partindo da estacao: 4
+Chegado na estacao de destino: 8
+Tempo total: 0h:26min!
+
+4 -> 9
+Partindo da estacao: 4
+Passado pela estacao: 8
+Mudado para a linha: Y
+Chegado na estacao de destino: 9
+Tempo total: 0h:48min!
+
+4 -> 10
+Partindo da estacao: 4
+Passado pela estacao: 3
+Passado pela estacao: 2
+Mudado para a linha: Y
+Chegado na estacao de destino: 10
+Tempo total: 1h:10min!
+
+4 -> 11
+Partindo da estacao: 4
+Passado pela estacao: 8
+Mudado para a linha: Y
+Passado pela estacao: 9
+Mudado para a linha: R
+Chegado na estacao de destino: 11
+Tempo total: 2h:00min!
+
+4 -> 12
+Partindo da estacao: 4
+Passado pela estacao: 8
+Chegado na estacao de destino: 12
+Tempo total: 0h:56min!
+
+4 -> 13
+Partindo da estacao: 4
+Chegado na estacao de destino: 13
+Tempo total: 0h:22min!
+
+4 -> 14
+Partindo da estacao: 4
+Passado pela estacao: 13
+Chegado na estacao de destino: 14
+Tempo total: 0h:44min!
+
+5 -> 1
+Partindo da estacao: 5
+Passado pela estacao: 4
+Passado pela estacao: 3
+Passado pela estacao: 2
+Chegado na estacao de destino: 1
+Tempo total: 3h:16min!
+
+5 -> 2
+Partindo da estacao: 5
+Passado pela estacao: 4
+Passado pela estacao: 3
+Chegado na estacao de destino: 2
+Tempo total: 1h:48min!
+
+5 -> 3
+Partindo da estacao: 5
+Passado pela estacao: 4
+Chegado na estacao de destino: 3
+Tempo total: 0h:54min!
+
+5 -> 4
+Partindo da estacao: 5
+Chegado na estacao de destino: 4
+Tempo total: 0h:26min!
+
+5 -> 5
+
+
+5 -> 6
+Partindo da estacao: 5
+Chegado na estacao de destino: 6
+Tempo total: 0h:06min!
+
+5 -> 7
+Partindo da estacao: 5
+Chegado na estacao de destino: 7
+Tempo total: 0h:04min!
+
+5 -> 8
+Partindo da estacao: 5
+Chegado na estacao de destino: 8
+Tempo total: 0h:42min!
+
+5 -> 9
+Partindo da estacao: 5
+Passado pela estacao: 8
+Chegado na estacao de destino: 9
+Tempo total: 1h:08min!
+
+5 -> 10
+Partindo da estacao: 5
+Passado pela estacao: 4
+Passado pela estacao: 3
+Passado pela estacao: 2
+Mudado para a linha: Y
+Chegado na estacao de destino: 10
+Tempo total: 2h:12min!
+
+5 -> 11
+Partindo da estacao: 5
+Passado pela estacao: 8
+Passado pela estacao: 9
+Mudado para a linha: R
+Chegado na estacao de destino: 11
+Tempo total: 2h:20min!
+
+5 -> 12
+Partindo da estacao: 5
+Passado pela estacao: 8
+Mudado para a linha: G
+Chegado na estacao de destino: 12
+Tempo total: 1h:12min!
+
+5 -> 13
+Partindo da estacao: 5
+Passado pela estacao: 4
+Mudado para a linha: G
+Chegado na estacao de destino: 13
+Tempo total: 0h:58min!
+
+5 -> 14
+Partindo da estacao: 5
+Passado pela estacao: 4
+Mudado para a linha: G
+Passado pela estacao: 13
+Chegado na estacao de destino: 14
+Tempo total: 1h:28min!
+
+6 -> 1
+Partindo da estacao: 6
+Passado pela estacao: 5
+Passado pela estacao: 4
+Passado pela estacao: 3
+Passado pela estacao: 2
+Chegado na estacao de destino: 1
+Tempo total: 4h:42min!
+
+6 -> 2
+Partindo da estacao: 6
+Passado pela estacao: 5
+Passado pela estacao: 4
+Passado pela estacao: 3
+Chegado na estacao de destino: 2
+Tempo total: 2h:52min!
+
+6 -> 3
+Partindo da estacao: 6
+Passado pela estacao: 5
+Passado pela estacao: 4
+Chegado na estacao de destino: 3
+Tempo total: 1h:38min!
+
+6 -> 4
+Partindo da estacao: 6
+Passado pela estacao: 5
+Chegado na estacao de destino: 4
+Tempo total: 0h:58min!
+
+6 -> 5
+Partindo da estacao: 6
+Chegado na estacao de destino: 5
+Tempo total: 0h:06min!
+
+6 -> 6
+
+
+6 -> 7
+Partindo da estacao: 6
+Passado pela estacao: 5
+Mudado para a linha: Y
+Chegado na estacao de destino: 7
+Tempo total: 0h:16min!
+
+6 -> 8
+Partindo da estacao: 6
+Passado pela estacao: 5
+Mudado para a linha: Y
+Chegado na estacao de destino: 8
+Tempo total: 1h:32min!
+
+6 -> 9
+Partindo da estacao: 6
+Passado pela estacao: 5
+Mudado para a linha: Y
+Passado pela estacao: 8
+Chegado na estacao de destino: 9
+Tempo total: 2h:08min!
+
+6 -> 10
+Partindo da estacao: 6
+Passado pela estacao: 5
+Passado pela estacao: 4
+Passado pela estacao: 3
+Passado pela estacao: 2
+Mudado para a linha: Y
+Chegado na estacao de destino: 10
+Tempo total: 3h:18min!
+
+6 -> 11
+Partindo da estacao: 6
+Passado pela estacao: 5
+Mudado para a linha: Y
+Passado pela estacao: 8
+Passado pela estacao: 9
+Mudado para a linha: R
+Chegado na estacao de destino: 11
+Tempo total: 3h:46min!
+
+6 -> 12
+Partindo da estacao: 6
+Passado pela estacao: 5
+Mudado para a linha: Y
+Passado pela estacao: 8
+Mudado para a linha: G
+Chegado na estacao de destino: 12
+Tempo total: 2h:16min!
+
+6 -> 13
+Partindo da estacao: 6
+Passado pela estacao: 5
+Passado pela estacao: 4
+Mudado para a linha: G
+Chegado na estacao de destino: 13
+Tempo total: 1h:32min!
+
+6 -> 14
+Partindo da estacao: 6
+Passado pela estacao: 5
+Passado pela estacao: 4
+Mudado para a linha: G
+Passado pela estacao: 13
+Chegado na estacao de destino: 14
+Tempo total: 2h:08min!
+
+7 -> 1
+Partindo da estacao: 7
+Passado pela estacao: 5
+Mudado para a linha: B
+Passado pela estacao: 4
+Passado pela estacao: 3
+Passado pela estacao: 2
+Chegado na estacao de destino: 1
+Tempo total: 4h:38min!
+
+7 -> 2
+Partindo da estacao: 7
+Passado pela estacao: 5
+Mudado para a linha: B
+Passado pela estacao: 4
+Passado pela estacao: 3
+Chegado na estacao de destino: 2
+Tempo total: 2h:48min!
+
+7 -> 3
+Partindo da estacao: 7
+Passado pela estacao: 5
+Mudado para a linha: B
+Passado pela estacao: 4
+Chegado na estacao de destino: 3
+Tempo total: 1h:36min!
+
+7 -> 4
+Partindo da estacao: 7
+Passado pela estacao: 5
+Mudado para a linha: B
+Chegado na estacao de destino: 4
+Tempo total: 0h:54min!
+
+7 -> 5
+Partindo da estacao: 7
+Chegado na estacao de destino: 5
+Tempo total: 0h:04min!
+
+7 -> 6
+Partindo da estacao: 7
+Passado pela estacao: 5
+Mudado para a linha: B
+Chegado na estacao de destino: 6
+Tempo total: 0h:18min!
+
+7 -> 7
+
+
+7 -> 8
+Partindo da estacao: 7
+Passado pela estacao: 5
+Chegado na estacao de destino: 8
+Tempo total: 1h:26min!
+
+7 -> 9
+Partindo da estacao: 7
+Passado pela estacao: 5
+Passado pela estacao: 8
+Chegado na estacao de destino: 9
+Tempo total: 1h:58min!
+
+7 -> 10
+Partindo da estacao: 7
+Passado pela estacao: 5
+Mudado para a linha: B
+Passado pela estacao: 4
+Passado pela estacao: 3
+Passado pela estacao: 2
+Mudado para a linha: Y
+Chegado na estacao de destino: 10
+Tempo total: 3h:14min!
+
+7 -> 11
+Partindo da estacao: 7
+Passado pela estacao: 5
+Passado pela estacao: 8
+Passado pela estacao: 9
+Mudado para a linha: R
+Chegado na estacao de destino: 11
+Tempo total: 3h:36min!
+
+7 -> 12
+Partindo da estacao: 7
+Passado pela estacao: 5
+Passado pela estacao: 8
+Mudado para a linha: G
+Chegado na estacao de destino: 12
+Tempo total: 2h:08min!
+
+7 -> 13
+Partindo da estacao: 7
+Passado pela estacao: 5
+Mudado para a linha: B
+Passado pela estacao: 4
+Mudado para a linha: G
+Chegado na estacao de destino: 13
+Tempo total: 1h:28min!
+
+7 -> 14
+Partindo da estacao: 7
+Passado pela estacao: 5
+Mudado para a linha: B
+Passado pela estacao: 4
+Mudado para a linha: G
+Passado pela estacao: 13
+Chegado na estacao de destino: 14
+Tempo total: 2h:06min!
+
+8 -> 1
+Partindo da estacao: 8
+Partindo da estacao: 1
+Passado pela estacao: 2
+Mudado para a linha: Y
+Passado pela estacao: 9
+Chegado na estacao de destino: 8
+Tempo total: 1h:56min!
+
+8 -> 2
+Partindo da estacao: 8
+Passado pela estacao: 9
+Mudado para a linha: R
+Passado pela estacao: 3
+Chegado na estacao de destino: 2
+Tempo total: 1h:22min!
+
+8 -> 3
+Partindo da estacao: 8
+Passado pela estacao: 4
+Mudado para a linha: B
+Chegado na estacao de destino: 3
+Tempo total: 0h:48min!
+
+8 -> 4
+Partindo da estacao: 8
+Chegado na estacao de destino: 4
+Tempo total: 0h:26min!
+
+8 -> 5
+Partindo da estacao: 8
+Chegado na estacao de destino: 5
+Tempo total: 0h:42min!
+
+8 -> 6
+Partindo da estacao: 8
+Passado pela estacao: 5
+Mudado para a linha: B
+Chegado na estacao de destino: 6
+Tempo total: 0h:56min!
+
+8 -> 7
+Partindo da estacao: 8
+Passado pela estacao: 5
+Chegado na estacao de destino: 7
+Tempo total: 0h:48min!
+
+8 -> 8
+
+
+8 -> 9
+Partindo da estacao: 8
+Chegado na estacao de destino: 9
+Tempo total: 0h:18min!
+
+8 -> 10
+Partindo da estacao: 8
+Passado pela estacao: 9
+Mudado para a linha: R
+Passado pela estacao: 3
+Passado pela estacao: 2
+Mudado para a linha: Y
+Chegado na estacao de destino: 10
+Tempo total: 1h:48min!
+
+8 -> 11
+Partindo da estacao: 8
+Passado pela estacao: 9
+Mudado para a linha: R
+Chegado na estacao de destino: 11
+Tempo total: 1h:04min!
+
+8 -> 12
+Partindo da estacao: 8
+Chegado na estacao de destino: 12
+Tempo total: 0h:14min!
+
+8 -> 13
+Partindo da estacao: 8
+Passado pela estacao: 4
+Chegado na estacao de destino: 13
+Tempo total: 1h:12min!
+
+8 -> 14
+Partindo da estacao: 8
+Passado pela estacao: 4
+Passado pela estacao: 13
+Chegado na estacao de destino: 14
+Tempo total: 1h:44min!
+
+9 -> 1
+Partindo da estacao: 9
+Partindo da estacao: 1
+Passado pela estacao: 2
+Mudado para a linha: Y
+Chegado na estacao de destino: 9
+Tempo total: 1h:02min!
+
+9 -> 2
+Partindo da estacao: 9
+Passado pela estacao: 3
+Chegado na estacao de destino: 2
+Tempo total: 0h:40min!
+
+9 -> 3
+Partindo da estacao: 9
+Chegado na estacao de destino: 3
+Tempo total: 0h:20min!
+
+9 -> 4
+Partindo da estacao: 9
+Passado pela estacao: 3
+Mudado para a linha: B
+Chegado na estacao de destino: 4
+Tempo total: 0h:44min!
+
+9 -> 5
+Partindo da estacao: 9
+Passado pela estacao: 3
+Mudado para a linha: B
+Passado pela estacao: 4
+Chegado na estacao de destino: 5
+Tempo total: 2h:00min!
+
+9 -> 6
+Partindo da estacao: 9
+Passado pela estacao: 3
+Mudado para a linha: B
+Passado pela estacao: 4
+Passado pela estacao: 5
+Chegado na estacao de destino: 6
+Tempo total: 2h:22min!
+
+9 -> 7
+Partindo da estacao: 9
+Passado pela estacao: 3
+Mudado para a linha: B
+Passado pela estacao: 4
+Passado pela estacao: 5
+Mudado para a linha: Y
+Chegado na estacao de destino: 7
+Tempo total: 2h:04min!
+
+9 -> 8
+Partindo da estacao: 9
+Chegado na estacao de destino: 8
+Tempo total: 0h:18min!
+
+9 -> 9
+
+
+9 -> 10
+Partindo da estacao: 9
+Passado pela estacao: 3
+Passado pela estacao: 2
+Mudado para a linha: Y
+Chegado na estacao de destino: 10
+Tempo total: 1h:00min!
+
+9 -> 11
+Partindo da estacao: 9
+Chegado na estacao de destino: 11
+Tempo total: 0h:24min!
+
+9 -> 12
+Partindo da estacao: 9
+Passado pela estacao: 8
+Mudado para a linha: G
+Chegado na estacao de destino: 12
+Tempo total: 0h:42min!
+
+9 -> 13
+Partindo da estacao: 9
+Passado pela estacao: 3
+Chegado na estacao de destino: 13
+Tempo total: 1h:12min!
+
+9 -> 14
+Partindo da estacao: 9
+Passado pela estacao: 3
+Passado pela estacao: 13
+Mudado para a linha: G
+Chegado na estacao de destino: 14
+Tempo total: 1h:46min!
+
+10 -> 1
+Partindo da estacao: 10
+Passado pela estacao: 2
+Mudado para a linha: B
+Chegado na estacao de destino: 1
+Tempo total: 0h:46min!
+
+10 -> 2
+Partindo da estacao: 10
+Chegado na estacao de destino: 2
+Tempo total: 0h:08min!
+
+10 -> 3
+Partindo da estacao: 10
+Passado pela estacao: 2
+Mudado para a linha: B
+Chegado na estacao de destino: 3
+Tempo total: 0h:44min!
+
+10 -> 4
+Partindo da estacao: 10
+Passado pela estacao: 2
+Mudado para a linha: B
+Passado pela estacao: 3
+Chegado na estacao de destino: 4
+Tempo total: 1h:26min!
+
+10 -> 5
+Partindo da estacao: 10
+Passado pela estacao: 2
+Mudado para a linha: B
+Passado pela estacao: 3
+Passado pela estacao: 4
+Chegado na estacao de destino: 5
+Tempo total: 3h:10min!
+
+10 -> 6
+Partindo da estacao: 10
+Passado pela estacao: 2
+Mudado para a linha: B
+Passado pela estacao: 3
+Passado pela estacao: 4
+Passado pela estacao: 5
+Chegado na estacao de destino: 6
+Tempo total: 3h:36min!
+
+10 -> 7
+Partindo da estacao: 10
+Passado pela estacao: 2
+Mudado para a linha: B
+Passado pela estacao: 3
+Passado pela estacao: 4
+Passado pela estacao: 5
+Mudado para a linha: Y
+Chegado na estacao de destino: 7
+Tempo total: 3h:08min!
+
+10 -> 8
+Partindo da estacao: 10
+Passado pela estacao: 2
+Passado pela estacao: 9
+Chegado na estacao de destino: 8
+Tempo total: 1h:40min!
+
+10 -> 9
+Partindo da estacao: 10
+Passado pela estacao: 2
+Chegado na estacao de destino: 9
+Tempo total: 0h:48min!
+
+10 -> 10
+
+
+10 -> 11
+Partindo da estacao: 10
+Passado pela estacao: 2
+Passado pela estacao: 9
+Mudado para a linha: R
+Chegado na estacao de destino: 11
+Tempo total: 1h:42min!
+
+10 -> 12
+Partindo da estacao: 10
+Passado pela estacao: 2
+Passado pela estacao: 9
+Passado pela estacao: 8
+Mudado para a linha: G
+Chegado na estacao de destino: 12
+Tempo total: 2h:22min!
+
+10 -> 13
+Partindo da estacao: 10
+Passado pela estacao: 2
+Mudado para a linha: B
+Passado pela estacao: 3
+Mudado para a linha: R
+Chegado na estacao de destino: 13
+Tempo total: 1h:56min!
+
+10 -> 14
+Partindo da estacao: 10
+Passado pela estacao: 2
+Mudado para a linha: B
+Passado pela estacao: 3
+Mudado para a linha: R
+Passado pela estacao: 13
+Mudado para a linha: G
+Chegado na estacao de destino: 14
+Tempo total: 2h:32min!
+
+11 -> 1
+Partindo da estacao: 11
+Partindo da estacao: 1
+Passado pela estacao: 2
+Mudado para a linha: Y
+Passado pela estacao: 9
+Mudado para a linha: R
+Chegado na estacao de destino: 11
+Tempo total: 1h:42min!
+
+11 -> 2
+Partindo da estacao: 11
+Passado pela estacao: 9
+Passado pela estacao: 3
+Chegado na estacao de destino: 2
+Tempo total: 1h:14min!
+
+11 -> 3
+Partindo da estacao: 11
+Passado pela estacao: 9
+Chegado na estacao de destino: 3
+Tempo total: 1h:02min!
+
+11 -> 4
+Partindo da estacao: 11
+Passado pela estacao: 9
+Passado pela estacao: 3
+Mudado para a linha: B
+Chegado na estacao de destino: 4
+Tempo total: 1h:36min!
+
+11 -> 5
+Partindo da estacao: 11
+Passado pela estacao: 9
+Passado pela estacao: 3
+Mudado para a linha: B
+Passado pela estacao: 4
+Chegado na estacao de destino: 5
+Tempo total: 3h:16min!
+
+11 -> 6
+Partindo da estacao: 11
+Passado pela estacao: 9
+Passado pela estacao: 3
+Mudado para a linha: B
+Passado pela estacao: 4
+Passado pela estacao: 5
+Chegado na estacao de destino: 6
+Tempo total: 3h:44min!
+
+11 -> 7
+Partindo da estacao: 11
+Passado pela estacao: 9
+Passado pela estacao: 3
+Mudado para a linha: B
+Passado pela estacao: 4
+Passado pela estacao: 5
+Mudado para a linha: Y
+Chegado na estacao de destino: 7
+Tempo total: 3h:20min!
+
+11 -> 8
+Partindo da estacao: 11
+Passado pela estacao: 9
+Mudado para a linha: Y
+Chegado na estacao de destino: 8
+Tempo total: 0h:58min!
+
+11 -> 9
+Partindo da estacao: 11
+Chegado na estacao de destino: 9
+Tempo total: 0h:24min!
+
+11 -> 10
+Partindo da estacao: 11
+Passado pela estacao: 9
+Passado pela estacao: 3
+Passado pela estacao: 2
+Mudado para a linha: Y
+Chegado na estacao de destino: 10
+Tempo total: 1h:40min!
+
+11 -> 11
+
+
+11 -> 12
+Partindo da estacao: 11
+Passado pela estacao: 9
+Mudado para a linha: Y
+Passado pela estacao: 8
+Mudado para a linha: G
+Chegado na estacao de destino: 12
+Tempo total: 1h:16min!
+
+11 -> 13
+Partindo da estacao: 11
+Passado pela estacao: 9
+Passado pela estacao: 3
+Chegado na estacao de destino: 13
+Tempo total: 2h:22min!
+
+11 -> 14
+Partindo da estacao: 11
+Passado pela estacao: 9
+Passado pela estacao: 3
+Passado pela estacao: 13
+Mudado para a linha: G
+Chegado na estacao de destino: 14
+Tempo total: 3h:04min!
+
+12 -> 1
+Partindo da estacao: 12
+Partindo da estacao: 1
+Passado pela estacao: 2
+Mudado para a linha: Y
+Passado pela estacao: 9
+Passado pela estacao: 8
+Mudado para a linha: G
+Chegado na estacao de destino: 12
+Tempo total: 2h:32min!
+
+12 -> 2
+Partindo da estacao: 12
+Passado pela estacao: 8
+Mudado para a linha: Y
+Passado pela estacao: 9
+Mudado para a linha: R
+Passado pela estacao: 3
+Chegado na estacao de destino: 2
+Tempo total: 2h:12min!
+
+12 -> 3
+Partindo da estacao: 12
+Passado pela estacao: 8
+Passado pela estacao: 4
+Mudado para a linha: B
+Chegado na estacao de destino: 3
+Tempo total: 1h:30min!
+
+12 -> 4
+Partindo da estacao: 12
+Passado pela estacao: 8
+Chegado na estacao de destino: 4
+Tempo total: 1h:08min!
+
+12 -> 5
+Partindo da estacao: 12
+Passado pela estacao: 8
+Mudado para a linha: Y
+Chegado na estacao de destino: 5
+Tempo total: 1h:40min!
+
+12 -> 6
+Partindo da estacao: 12
+Passado pela estacao: 8
+Mudado para a linha: Y
+Passado pela estacao: 5
+Mudado para a linha: B
+Chegado na estacao de destino: 6
+Tempo total: 2h:00min!
+
+12 -> 7
+Partindo da estacao: 12
+Passado pela estacao: 8
+Mudado para a linha: Y
+Passado pela estacao: 5
+Chegado na estacao de destino: 7
+Tempo total: 1h:48min!
+
+12 -> 8
+Partindo da estacao: 12
+Chegado na estacao de destino: 8
+Tempo total: 0h:14min!
+
+12 -> 9
+Partindo da estacao: 12
+Passado pela estacao: 8
+Mudado para a linha: Y
+Chegado na estacao de destino: 9
+Tempo total: 0h:46min!
+
+12 -> 10
+Partindo da estacao: 12
+Passado pela estacao: 8
+Mudado para a linha: Y
+Passado pela estacao: 9
+Mudado para a linha: R
+Passado pela estacao: 3
+Passado pela estacao: 2
+Mudado para a linha: Y
+Chegado na estacao de destino: 10
+Tempo total: 2h:46min!
+
+12 -> 11
+Partindo da estacao: 12
+Passado pela estacao: 8
+Mudado para a linha: Y
+Passado pela estacao: 9
+Mudado para a linha: R
+Chegado na estacao de destino: 11
+Tempo total: 1h:38min!
+
+12 -> 12
+
+
+12 -> 13
+Partindo da estacao: 12
+Passado pela estacao: 8
+Passado pela estacao: 4
+Chegado na estacao de destino: 13
+Tempo total: 2h:14min!
+
+12 -> 14
+Partindo da estacao: 12
+Passado pela estacao: 8
+Passado pela estacao: 4
+Passado pela estacao: 13
+Chegado na estacao de destino: 14
+Tempo total: 2h:58min!
+
+13 -> 1
+Partindo da estacao: 13
+Passado pela estacao: 3
+Mudado para a linha: B
+Passado pela estacao: 2
+Chegado na estacao de destino: 1
+Tempo total: 2h:06min!
+
+13 -> 2
+Partindo da estacao: 13
+Passado pela estacao: 3
+Mudado para a linha: B
+Chegado na estacao de destino: 2
+Tempo total: 1h:04min!
+
+13 -> 3
+Partindo da estacao: 13
+Chegado na estacao de destino: 3
+Tempo total: 0h:26min!
+
+13 -> 4
+Partindo da estacao: 13
+Chegado na estacao de destino: 4
+Tempo total: 0h:22min!
+
+13 -> 5
+Partindo da estacao: 13
+Passado pela estacao: 4
+Mudado para a linha: B
+Chegado na estacao de destino: 5
+Tempo total: 1h:02min!
+
+13 -> 6
+Partindo da estacao: 13
+Passado pela estacao: 4
+Mudado para a linha: B
+Passado pela estacao: 5
+Chegado na estacao de destino: 6
+Tempo total: 1h:16min!
+
+13 -> 7
+Partindo da estacao: 13
+Passado pela estacao: 4
+Mudado para a linha: B
+Passado pela estacao: 5
+Mudado para a linha: Y
+Chegado na estacao de destino: 7
+Tempo total: 1h:02min!
+
+13 -> 8
+Partindo da estacao: 13
+Passado pela estacao: 4
+Chegado na estacao de destino: 8
+Tempo total: 1h:16min!
+
+13 -> 9
+Partindo da estacao: 13
+Passado pela estacao: 3
+Chegado na estacao de destino: 9
+Tempo total: 1h:06min!
+
+13 -> 10
+Partindo da estacao: 13
+Passado pela estacao: 3
+Mudado para a linha: B
+Passado pela estacao: 2
+Mudado para a linha: Y
+Chegado na estacao de destino: 10
+Tempo total: 1h:18min!
+
+13 -> 11
+Partindo da estacao: 13
+Passado pela estacao: 3
+Passado pela estacao: 9
+Chegado na estacao de destino: 11
+Tempo total: 2h:16min!
+
+13 -> 12
+Partindo da estacao: 13
+Passado pela estacao: 3
+Passado pela estacao: 9
+Mudado para a linha: Y
+Passado pela estacao: 8
+Mudado para a linha: G
+Chegado na estacao de destino: 12
+Tempo total: 2h:30min!
+
+13 -> 13
+
+
+13 -> 14
+Partindo da estacao: 13
+Chegado na estacao de destino: 14
+Tempo total: 0h:10min!
+
+14 -> 1
+Partindo da estacao: 14
+Passado pela estacao: 13
+Mudado para a linha: R
+Passado pela estacao: 3
+Mudado para a linha: B
+Passado pela estacao: 2
+Chegado na estacao de destino: 1
+Tempo total: 3h:14min!
+
+14 -> 2
+Partindo da estacao: 14
+Passado pela estacao: 13
+Mudado para a linha: R
+Passado pela estacao: 3
+Mudado para a linha: B
+Chegado na estacao de destino: 2
+Tempo total: 1h:56min!
+
+14 -> 3
+Partindo da estacao: 14
+Passado pela estacao: 13
+Mudado para a linha: R
+Chegado na estacao de destino: 3
+Tempo total: 1h:06min!
+
+14 -> 4
+Partindo da estacao: 14
+Passado pela estacao: 13
+Chegado na estacao de destino: 4
+Tempo total: 0h:56min!
+
+14 -> 5
+Partindo da estacao: 14
+Passado pela estacao: 13
+Passado pela estacao: 4
+Mudado para a linha: B
+Chegado na estacao de destino: 5
+Tempo total: 1h:42min!
+
+14 -> 6
+Partindo da estacao: 14
+Passado pela estacao: 13
+Passado pela estacao: 4
+Mudado para a linha: B
+Passado pela estacao: 5
+Chegado na estacao de destino: 6
+Tempo total: 1h:56min!
+
+14 -> 7
+Partindo da estacao: 14
+Passado pela estacao: 13
+Passado pela estacao: 4
+Mudado para a linha: B
+Passado pela estacao: 5
+Mudado para a linha: Y
+Chegado na estacao de destino: 7
+Tempo total: 1h:36min!
+
+14 -> 8
+Partindo da estacao: 14
+Passado pela estacao: 13
+Passado pela estacao: 4
+Chegado na estacao de destino: 8
+Tempo total: 2h:16min!
+
+14 -> 9
+Partindo da estacao: 14
+Passado pela estacao: 13
+Mudado para a linha: R
+Passado pela estacao: 3
+Chegado na estacao de destino: 9
+Tempo total: 2h:06min!
+
+14 -> 10
+Partindo da estacao: 14
+Passado pela estacao: 13
+Mudado para a linha: R
+Passado pela estacao: 3
+Mudado para a linha: B
+Passado pela estacao: 2
+Mudado para a linha: Y
+Chegado na estacao de destino: 10
+Tempo total: 2h:08min!
+
+14 -> 11
+Partindo da estacao: 14
+Passado pela estacao: 13
+Mudado para a linha: R
+Passado pela estacao: 3
+Passado pela estacao: 9
+Chegado na estacao de destino: 11
+Tempo total: 3h:38min!
+
+14 -> 12
+Partindo da estacao: 14
+Passado pela estacao: 13
+Mudado para a linha: R
+Passado pela estacao: 3
+Passado pela estacao: 9
+Mudado para a linha: Y
+Passado pela estacao: 8
+Mudado para a linha: G
+Chegado na estacao de destino: 12
+Tempo total: 3h:48min!
+
+14 -> 13
+Partindo da estacao: 14
+Chegado na estacao de destino: 13
+Tempo total: 0h:10min!
+
+14 -> 14
+
+
