@@ -1,0 +1,78 @@
+Passos: 11
+
+Missionarios a esqueda: 0
+Missionarios a direita: 3
+Canibais a esqueda: 0
+Canibais a direita: 3
+Barco: RIGHT
+Passo: [1, 1]
+
+Missionarios a esqueda: 1
+Missionarios a direita: 2
+Canibais a esqueda: 1
+Canibais a direita: 2
+Barco: LEFT
+Passo: [1, 0]
+
+Missionarios a esqueda: 0
+Missionarios a direita: 3
+Canibais a esqueda: 1
+Canibais a direita: 2
+Barco: RIGHT
+Passo: [0, 2]
+
+Missionarios a esqueda: 0
+Missionarios a direita: 3
+Canibais a esqueda: 3
+Canibais a direita: 0
+Barco: LEFT
+Passo: [0, 1]
+
+Missionarios a esqueda: 0
+Missionarios a direita: 3
+Canibais a esqueda: 2
+Canibais a direita: 1
+Barco: RIGHT
+Passo: [2, 0]
+
+Missionarios a esqueda: 2
+Missionarios a direita: 1
+Canibais a esqueda: 2
+Canibais a direita: 1
+Barco: LEFT
+Passo: [1, 1]
+
+Missionarios a esqueda: 1
+Missionarios a direita: 2
+Canibais a esqueda: 1
+Canibais a direita: 2
+Barco: RIGHT
+Passo: [2, 0]
+
+Missionarios a esqueda: 3
+Missionarios a direita: 0
+Canibais a esqueda: 1
+Canibais a direita: 2
+Barco: LEFT
+Passo: [0, 1]
+
+Missionarios a esqueda: 3
+Missionarios a direita: 0
+Canibais a esqueda: 0
+Canibais a direita: 3
+Barco: RIGHT
+Passo: [0, 2]
+
+Missionarios a esqueda: 3
+Missionarios a direita: 0
+Canibais a esqueda: 2
+Canibais a direita: 1
+Barco: LEFT
+Passo: [0, 1]
+
+Missionarios a esqueda: 3
+Missionarios a direita: 0
+Canibais a esqueda: 1
+Canibais a direita: 2
+Barco: RIGHT
+Passo: [0, 2]
