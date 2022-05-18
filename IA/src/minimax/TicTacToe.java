@@ -5,9 +5,11 @@ import java.util.Scanner;
 public class TicTacToe {
 	
 	private char[][] board;
+	private int bmX, bmY;
 	
 	public TicTacToe() {
 		this.board = new char[3][3];
+		bmX = bmY = 0;
 		for(int i = 0; i < 3; i++) {
 			for(int j = 0; j < 3; j++) {
 				board[i][j] = '#';
@@ -30,89 +32,95 @@ public class TicTacToe {
 			System.out.println("Usuario venceu!");
 			System.exit(0);
 		}
-		iaPlay(scan);
-	}
-	
-	public void iaPlay(Scanner scan) {
-		int bestLocationI = 0, bestLocationJ = 0;
-		int bestScore = Integer.MIN_VALUE;
-		for(int i = 0; i < 3; i++) {
-			for(int j = 0; j < 3; j++) {
-				if(board[i][j] == '#') {
-					board[i][j] = 'O';
-					int score = minimax(0, true);
-					board[i][j] = '#';
-					if(score > bestScore) {
-						bestScore = score;
-						bestLocationI = i;
-						bestLocationJ = j;
-					}					
-				}
-			}
-		}
-		board[bestLocationI][bestLocationJ] = 'O';
+		
 		System.out.println("IA:");
+		minimax(0, 'O', scan);
+		board[bmX][bmY] = 'O';
 		print();
-		if(getWinner() == 'O') {
-			System.out.println("IA venceu!");
-			System.exit(0);
-		}
 		userPlay(scan);
 	}
 	
-	private int minimax(int depth, boolean isMaximizing) {
+	private int minimax(int depth, char turn, Scanner scan) {
 		char winner = getWinner();
 		if(winner == 'X') {
-			return depth - 10;
+			return -1;
 		} else if(winner == 'O') {
-			return 10 - depth;
+			return 1;
 		}
 		
-		if(isMaximizing) {
-			int bestScore = Integer.MIN_VALUE;
-			for(int i = 0; i < 3; i++) {
-				for(int j = 0; j < 3; j++) {
-					if(board[i][j] == '#') {
+		int max = Integer.MIN_VALUE, min = Integer.MAX_VALUE;
+		boolean draw = true;
+		
+		for(int i = 0; i < 3; i++) {
+			for(int j = 0; j < 3; j++) {
+				if(board[i][j] == '#') 
+					draw = false;
+			}
+		}
+		
+		if(draw) {
+			return 0;
+		}
+		
+		for(int i = 0; i < 3; i++) {
+			for(int j = 0; j < 3; j++) {
+				if(board[i][j] == '#') {
+					
+					if(turn == 'O') { //ia
 						board[i][j] = 'O';
-						int score = minimax(depth + 1, false);
-						board[i][j] = '#';
-						bestScore = Math.max(bestScore, score);
+						int score = minimax(depth + 1, 'X', scan);
+						max = Math.max(score, max);
+												
+						if(score == 0 && depth == 0) {
+							bmX = i;
+							bmY = j;
+						}
+						
+						if(score == 1) {
+							board[i][j] = '#';
+							break;
+						}
+						
+						if(i == 2 && j == 2 && max < 0 && depth == 0) {
+							bmX = i;
+							bmY = j;
+						}
+						
+					} else if(turn == 'X') {
+						board[i][j] = 'X';
+						int score = minimax(depth + 1, 'O', scan);
+						min = Math.min(min, score);
+						
+						if(min == -1) {
+							board[i][j] = '#';
+							break;
+						}
 					}
+					
+					board[i][j] = '#';
 				}
 			}
-			return bestScore;
-		} else {
-			int bestScore = Integer.MAX_VALUE;
-			for(int i = 0; i < 3; i++) {
-				for(int j = 0; j < 3; j++) {
-					if(board[i][j] == '#') {
-						board[i][j] = 'X';
-						int score = minimax(depth + 1, true);
-						board[i][j] = '#';
-						bestScore = Math.min(bestScore, score);
-					}
-				}
-			}			
-			return bestScore;
 		}
+		
+		return turn == 'O' ? max : min;
 	}
 	
 	private char getWinner() {
-		if(board[0][0] == board[0][1] && board[0][0] == board[0][2]) { //1 linha
+		if(board[0][0] != '#' && board[0][0] == board[0][1] && board[0][0] == board[0][2]) { //1 linha
 			return board[0][0];
-		} else if(board[1][0] == board[1][1] && board[1][0] == board[1][2]) { //2 linha
+		} else if(board[1][0] != '#' && board[1][0] == board[1][1] && board[1][0] == board[1][2]) { //2 linha
 			return board[1][0];
-		} else if(board[2][0] == board[2][1] && board[2][0] == board[2][2]) {// 3 linha
+		} else if(board[2][0] != '#' && board[2][0] == board[2][1] && board[2][0] == board[2][2]) {// 3 linha
 			return board[2][0];
-		} else if(board[0][0] == board[1][0] && board[0][0] == board[2][0]) {//1 coluna
+		} else if(board[0][0] != '#' && board[0][0] == board[1][0] && board[0][0] == board[2][0]) {//1 coluna
 			return board[0][0];
-		} else if(board[0][1] == board[1][1] && board[0][1] == board[2][1]) {//2 coluna
+		} else if(board[0][1] != '#' && board[0][1] == board[1][1] && board[0][1] == board[2][1]) {//2 coluna
 			return board[0][1];
-		} else if(board[0][2] == board[1][2] && board[0][2] == board[2][2]) {//3 coluna
+		} else if(board[0][2] != '#' && board[0][2] == board[1][2] && board[0][2] == board[2][2]) {//3 coluna
 			return board[0][2];
-		} else if(board[0][0] == board[1][1] && board[0][0] == board[2][2]) {//diagonal 1
+		} else if(board[0][0] != '#' && board[0][0] == board[1][1] && board[0][0] == board[2][2]) {//diagonal 1
 			return board[0][0];
-		} else if(board[0][2] == board[1][1] && board[0][2] == board[2][0]) {//diagonal 2
+		} else if(board[0][2] != '#' && board[0][2] == board[1][1] && board[0][2] == board[2][0]) {//diagonal 2
 			return board[0][2];
 		} else {
 			return 'e';
@@ -192,6 +200,22 @@ public class TicTacToe {
 			System.out.println();
 		}
 		System.out.println();
+	}
+
+	public int getBmX() {
+		return bmX;
+	}
+
+	public void setBmX(int bmX) {
+		this.bmX = bmX;
+	}
+
+	public int getBmY() {
+		return bmY;
+	}
+
+	public void setBmY(int bmY) {
+		this.bmY = bmY;
 	}
 
 }
