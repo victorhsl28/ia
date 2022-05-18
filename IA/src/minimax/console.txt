@@ -1,0 +1,49 @@
+# # # 
+# # # 
+# # # 
+
+Jogue (1-9):
+9
+# # # 
+# # # 
+# # X 
+
+IA:
+O # # 
+# # # 
+# # X 
+
+Jogue (1-9):
+5
+O # # 
+# X # 
+# # X 
+
+IA:
+O O # 
+# X # 
+# # X 
+
+Jogue (1-9):
+3
+O O X 
+# X # 
+# # X 
+
+IA:
+O O X 
+O X # 
+# # X 
+
+Jogue (1-9):
+8
+O O X 
+O X # 
+# X X 
+
+IA:
+O O X 
+O X # 
+O X X 
+
+IA venceu!
