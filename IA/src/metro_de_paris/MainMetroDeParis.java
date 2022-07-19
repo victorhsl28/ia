@@ -3,20 +3,18 @@ package metro_de_paris;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.List;
-import java.util.Map;
 
 public class MainMetroDeParis {
 	
-	public static Map<Integer, Station> stations;
+	//public static Map<Integer, Station> stations;
 	public static Table t;
 	public List<Station> unread;
 	public int time;
 		
 	public MainMetroDeParis() {
-		stations = new HashMap<>();
+		//stations = new HashMap<>();
 		t = new Table();
 		
 		BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));

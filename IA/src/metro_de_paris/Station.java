@@ -14,7 +14,7 @@ public class Station {
 		this.id = id;
 		this.heuristic = heuristic;
 		this.lines = MainMetroDeParis.t.getLines(id);
-		MainMetroDeParis.stations.put(id, this);
+		//MainMetroDeParis.stations.put(id, this);
 	}
 	
 	List<Station> generateChilds(int arrive) {
