@@ -1,3 +1,7 @@
 Tests: 11175
-Success: 4023
-Accuracy: 36%
+Success: 5690
+Accuracy: 50%
+	setosa | versicolor | virginica
+setosa 4470 | 0 | 0
+versicolor 2281 | 996 | 1
+virginica 2212 | 991 | 224
