@@ -1,7 +1,23 @@
-Tests: 11175
-Success: 5690
-Accuracy: 50%
-	setosa | versicolor | virginica
-setosa 4470 | 0 | 0
-versicolor 2281 | 996 | 1
-virginica 2212 | 991 | 224
+Tests: 50
+Success: 50
+Accuracy: 100%
+	  setosa | versicolor | virginica
+setosa      18	 |   0	      |    0
+versicolor  0 	 |   13       |    0
+virginica   0 	 |   0 	      |    19
+
+Tests: 50
+Success: 49
+Accuracy: 98%
+	  setosa | versicolor | virginica
+setosa      18	 |   0	      |    0
+versicolor  0 	 |   15       |    1
+virginica   0 	 |   0 	      |    16
+
+Tests: 50
+Success: 48
+Accuracy: 96%
+	  setosa | versicolor | virginica
+setosa      19	 |   0	      |    0
+versicolor  0 	 |   15       |    1
+virginica   0 	 |   1 	      |    14
