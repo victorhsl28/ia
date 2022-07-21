@@ -1,6 +1,6 @@
 package main;
 
-import classifier.KMeans;
+import machine_learning.MainML;
 
 public class Main {
 
@@ -9,6 +9,6 @@ public class Main {
 		//new MainMetroDeParis();
 		//new MinimaxMain();
 		//new TPSMain();
-		new KMeans();
+		new MainML();
 	}
 }
