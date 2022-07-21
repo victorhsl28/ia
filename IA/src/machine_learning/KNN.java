@@ -7,26 +7,22 @@ import java.util.TreeMap;
 public class KNN {
 
 	public String knn(Flower f, List<Flower> trainingData, int k) {
-        Map<Double, Flower> neighbourDistance = new TreeMap<>();
+        Map<Double, Flower> distances = new TreeMap<>();
 
-        for (Flower flower : trainingData) {
-            neighbourDistance.put(distance(f, flower), flower);
+        for (Flower flower : trainingData)
+        	distances.put(distance(f, flower), flower);
+
+        int i = 0;
+        Map<String, Integer> types = new TreeMap<>();
+        for (Map.Entry<Double, Flower> neighbour : distances.entrySet()) {
+            if (i == k) break;
+
+            types.put(neighbour.getValue().getType(), (types.get(neighbour.getValue().getType()) == null ? 0 : types.get(neighbour.getValue().getType())) + 1);
+            
+            i++;
         }
 
-        int counter = 0;
-        Map<String, Integer> irisTypes = new TreeMap<>();
-
-        for (Map.Entry<Double, Flower> neighbour : neighbourDistance.entrySet()) {
-            if (counter == k) break;
-
-            irisTypes.put(neighbour.getValue().getType(),
-                    (irisTypes.get(neighbour.getValue().getType()) == null ?
-                            0 : irisTypes.get(neighbour.getValue().getType())) + 1);
-
-            counter++;
-        }
-
-        return irisTypes.entrySet().iterator().next().getKey();
+        return types.entrySet().iterator().next().getKey();
     }
     
     private double distance(Flower f1, Flower f2) {
