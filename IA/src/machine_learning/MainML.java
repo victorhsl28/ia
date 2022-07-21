@@ -37,56 +37,54 @@ public class MainML {
 		confusionMatrix.put("Iris-virginica,Iris-setosa", 0);
 		confusionMatrix.put("Iris-virginica,Iris-versicolor", 0);
 		
-		for (int k = 1; k < 150; k += 1) {
-			KNN knn = new KNN();
-			for(Flower tf : test) {
-				String result = knn.knn(tf, training, k);
-				String type = tf.getType();
-				
-				if(result.equalsIgnoreCase(type)) {
-					success++;
+		KNN knn = new KNN();
+		for(Flower tf : test) {
+			String result = knn.knn(tf, training, 1);
+			String type = tf.getType();
+			
+			if(result.equalsIgnoreCase(type)) {
+				success++;
+			}
+			
+			tests++;
+			
+			if(result.equalsIgnoreCase(type)) {
+				if(result.equalsIgnoreCase("Iris-setosa")) {
+					add("Iris-setosa,Iris-setosa");
+				} 
+				if(result.equalsIgnoreCase("Iris-virginica")) {
+					add("Iris-virginica,Iris-virginica");
+				} 
+				if(result.equalsIgnoreCase("Iris-versicolor")) {
+					add("Iris-versicolor,Iris-versicolor");
 				}
-				
-				tests++;
-				
-				if(result.equalsIgnoreCase(type)) {
-					if(result.equalsIgnoreCase("Iris-setosa")) {
-						add("Iris-setosa,Iris-setosa");
-					} 
-					if(result.equalsIgnoreCase("Iris-virginica")) {
-						add("Iris-virginica,Iris-virginica");
-					} 
+			} else {
+				if(type.equalsIgnoreCase("Iris-setosa")) {
 					if(result.equalsIgnoreCase("Iris-versicolor")) {
-						add("Iris-versicolor,Iris-versicolor");
-					}
-				} else {
-					if(type.equalsIgnoreCase("Iris-setosa")) {
-						if(result.equalsIgnoreCase("Iris-versicolor")) {
-							add("Iris-setosa,Iris-versicolor");
-						} 
-						
-						if(result.equalsIgnoreCase("Iris-virginica")) {
-							add("Iris-setosa,Iris-virginica");
-						}
-					} 
-					if(type.equalsIgnoreCase("Iris-versicolor")) {
-						if(result.equalsIgnoreCase("Iris-setosa")) {
-							add("Iris-versicolor,Iris-setosa");
-						} 
-						
-						if(result.equalsIgnoreCase("Iris-virginica")) {
-							add("Iris-versicolor,Iris-virginica");
-						}
+						add("Iris-setosa,Iris-versicolor");
 					} 
 					
-					if(type.equalsIgnoreCase("Iris-virginica")) {
-						if(result.equalsIgnoreCase("Iris-setosa")) {
-							add("Iris-virginica,Iris-setosa");
-						} 
-						
-						if(result.equalsIgnoreCase("Iris-versicolor")) {
-							add("Iris-virginica,Iris-versicolor");
-						}
+					if(result.equalsIgnoreCase("Iris-virginica")) {
+						add("Iris-setosa,Iris-virginica");
+					}
+				} 
+				if(type.equalsIgnoreCase("Iris-versicolor")) {
+					if(result.equalsIgnoreCase("Iris-setosa")) {
+						add("Iris-versicolor,Iris-setosa");
+					} 
+					
+					if(result.equalsIgnoreCase("Iris-virginica")) {
+						add("Iris-versicolor,Iris-virginica");
+					}
+				} 
+				
+				if(type.equalsIgnoreCase("Iris-virginica")) {
+					if(result.equalsIgnoreCase("Iris-setosa")) {
+						add("Iris-virginica,Iris-setosa");
+					} 
+					
+					if(result.equalsIgnoreCase("Iris-versicolor")) {
+						add("Iris-virginica,Iris-versicolor");
 					}
 				}
 			}
@@ -96,10 +94,10 @@ public class MainML {
 		System.out.println("Success: " + success);
 		System.out.println("Accuracy: " + ((success * 100) / tests) + "%");
 		
-		System.out.println("	setosa | versicolor | virginica");
-		System.out.println("setosa " + get("Iris-setosa,Iris-setosa") + " | " + get("Iris-setosa,Iris-versicolor") + " | " + get("Iris-setosa,Iris-virginica"));
-		System.out.println("versicolor " + get("Iris-versicolor,Iris-setosa") + " | " + get("Iris-versicolor,Iris-versicolor") + " | " + get("Iris-versicolor,Iris-virginica"));
-		System.out.println("virginica " + get("Iris-virginica,Iris-setosa") + " | " + get("Iris-virginica,Iris-versicolor") + " | " + get("Iris-virginica,Iris-virginica"));
+		System.out.println("	  setosa | versicolor | virginica");
+		System.out.println("setosa      " + get("Iris-setosa,Iris-setosa") + "	 |   " + get("Iris-setosa,Iris-versicolor") + "	      |    " + get("Iris-setosa,Iris-virginica"));
+		System.out.println("versicolor  " + get("Iris-versicolor,Iris-setosa") + " 	 |   " + get("Iris-versicolor,Iris-versicolor") + "       |    " + get("Iris-versicolor,Iris-virginica"));
+		System.out.println("virginica   " + get("Iris-virginica,Iris-setosa") + " 	 |   " + get("Iris-virginica,Iris-versicolor") + " 	      |    " + get("Iris-virginica,Iris-virginica"));
 	}
 	
 	private void add(String type) {
@@ -125,7 +123,7 @@ public class MainML {
 	
 	private List<Flower> getTrainingFlowers(List<Flower> flowers) {
         List<Flower> training = new ArrayList<Flower>();
-        for(int i = 0; i < 75; i++) {
+        for(int i = 0; i < 100; i++) {
         	int random = new Random().nextInt(flowers.size() - 1);
         	training.add(flowers.get(random));
         	flowers.remove(random);
@@ -135,7 +133,7 @@ public class MainML {
 
 	private List<Flower> getTestFlowers(List<Flower> flowers) {
         List<Flower> test = new ArrayList<Flower>();
-        test.addAll(flowers.subList(0, 75));
+        test.addAll(flowers.subList(0, 50));
         return test;
     }
 
