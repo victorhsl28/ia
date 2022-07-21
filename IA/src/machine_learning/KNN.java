@@ -1,42 +1,33 @@
 package machine_learning;
 
-import java.util.Comparator;
-import java.util.HashMap;
-import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.Vector;
-import java.util.stream.Collectors;
+import java.util.TreeMap;
 
 public class KNN {
-	
-	Map<Integer, Double> distances;
-	
-	public KNN() {
-		distances = new HashMap<>();
-	}
 
-    public String knn(Flower test, List<Flower> trainingFlowers, int kn) {
-        for(Flower training : trainingFlowers) 
-            distances.put(training.getId(), distance(training, test));
-        
-        Map<Integer, Double> sortedDistances = distances.entrySet().stream().sorted(Map.Entry.comparingByValue())
-        		.collect(Collectors.toMap(f -> f.getKey(), f -> f.getValue(), (f1, f2) -> f2, LinkedHashMap::new));
+	public String knn(Flower f, List<Flower> trainingData, int k) {
+        Map<Double, Flower> neighbourDistance = new TreeMap<>();
 
-        int i = 0;
-        Vector<String> types = new Vector<>();
-        for (Map.Entry<Integer, Double> entry : sortedDistances.entrySet()) {
-            if (i == kn)	break;
-
-            if (entry.getKey() < trainingFlowers.size()) {
-            	types.addElement(trainingFlowers.get(entry.getKey()).getType());
-                i++;
-            }
+        for (Flower flower : trainingData) {
+            neighbourDistance.put(distance(f, flower), flower);
         }
 
-        return types.stream().collect(Collectors.groupingBy(o -> o, Collectors.counting())).entrySet().stream().max(Comparator.comparing(Map.Entry::getValue)).
-        		get().getKey();
-	}
+        int counter = 0;
+        Map<String, Integer> irisTypes = new TreeMap<>();
+
+        for (Map.Entry<Double, Flower> neighbour : neighbourDistance.entrySet()) {
+            if (counter == k) break;
+
+            irisTypes.put(neighbour.getValue().getType(),
+                    (irisTypes.get(neighbour.getValue().getType()) == null ?
+                            0 : irisTypes.get(neighbour.getValue().getType())) + 1);
+
+            counter++;
+        }
+
+        return irisTypes.entrySet().iterator().next().getKey();
+    }
     
     private double distance(Flower f1, Flower f2) {
 		return Math.sqrt(Math.pow((f2.getPetalLength() - f1.getPetalLength()), 2) + Math.pow((f2.getPetalWidth() - f1.getPetalWidth()), 2) + 
